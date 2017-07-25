@@ -8,7 +8,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class FBX {
+public class Fire {
     public static class db {
         public static DatabaseReference getBaseRef() {
             return FirebaseDatabase.getInstance().getReference();
